@@ -1,0 +1,50 @@
+1 - What is A Big(O) Notaion?
+  Big O notation is a way to describe the efficiency of an algorithm by expressing how its runtime or space requirements grow with the size of the input.
+  It focuses on the most significant factors, ignoring constants and less important terms, and is used primarily for worst-case analysis.
+
+
+
+2 - Why is the map arranged quickly in Python?
+
+  In Python, dictionaries (maps) are fast because they use a hash table under the hood. Hash tables allow for average-case O(1) time complexity for lookups, insertions, and deletions by
+  directly indexing the location of data based on a hash function, making these operations very efficient. 
+
+
+
+3 - What is the most famous Short'st Path Algorithm in Weighted graph?
+
+  The most famous shortest path algorithm for weighted graphs is Dijkstra's algorithm. 
+  It efficiently finds the shortest path from a source vertex to all other vertices in a graph with non-negative edge weights. 
+  Dijkstra's algorithm is widely used in various applications, including routing protocols in computer networks and navigation systems.
+
+
+
+4 - Compare Between BFS & DFS:
+
+  BFS (Breadth-First Search):
+
+  Explores all nodes at the present "depth" level before moving on to nodes at the next depth level.
+  Uses a queue data structure to maintain the order of exploration (FIFO - First In, First Out).
+  Finds the shortest path in an unweighted graph.
+  Typically implemented iteratively using a queue.
+
+  DFS (Depth-First Search):
+
+  Explores as far as possible along each branch before backtracking.
+  Uses a stack (or recursion) to maintain the order of exploration (LIFO - Last In, First Out).
+  Generally requires less memory than BFS, especially when implemented recursively.
+  Can be used to detect cycles in a graph.
+
+
+
+5 - What is HASHMAP?
+
+  A hashmap, also known as a hash table or dictionary, is a data structure that implements an associative array abstract data type, a structure that can map keys to values.
+  It uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
+
+  Key points:
+
+  Efficiency: Provides average O(1) time complexity for insertions, deletions, and lookups, though this can degrade in the worst case.
+  Hash Function: Determines the mapping of keys to indices in the underlying array.
+  Collision Handling: Occurs when two keys hash to the same index; various strategies like chaining or open addressing are used to manage collisions.
+  Applications: Widely used in programming for fast data retrieval operations and efficient storage of key-value pairs.
