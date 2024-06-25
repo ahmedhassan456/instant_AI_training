@@ -1,0 +1,77 @@
+1 - What programming languages ​​have a garbage collector?
+
+  Java: Uses the Java Virtual Machine (JVM) which includes an efficient garbage collector.
+  C#: The .NET framework provides garbage collection for C# programs.
+  Python: Includes garbage collection as part of its memory management system.
+  Ruby: Utilizes garbage collection to manage memory.
+  JavaScript: Most JavaScript engines, like V8 (used in Chrome and Node.js), come with garbage collection.
+  Go: Designed with garbage collection to simplify memory management.
+  Dart: Primarily used for building mobile applications, it includes a garbage collector.
+  Swift: Uses Automatic Reference Counting (ARC), which is a form of garbage collection.
+  Kotlin: Runs on the JVM and utilizes its garbage collection.
+  Haskell: Functional language with garbage collection.
+  Scala: Also runs on the JVM, benefiting from its garbage collector.
+  Lua: A lightweight scripting language with garbage collection.
+  Perl: Includes garbage collection for memory management.
+  R: Statistical programming language with garbage collection.
+  PHP: Modern versions include a garbage collector for cleaning up memory.
+  Objective-C: Uses ARC like Swift, but also has a traditional garbage collector in its runtime.
+  Erlang: Functional language with garbage collection, often used in telecoms.
+
+
+
+2 - What are the 13 principles of clean code?
+
+  Meaningful Names: Use descriptive and meaningful names for variables, functions, classes, and other entities. Names should convey intent and be easily understood by other developers.
+  Single Responsibility Principle: Each class or function should have only one responsibility or reason to change. This makes the code easier to understand and maintain.
+  Small Functions: Functions should be small and do one thing only. This enhances readability and makes it easier to test and debug.
+  DRY (Don't Repeat Yourself): Avoid duplication of code. Each piece of knowledge should have a single, unambiguous representation within the system.
+  Readability: Code should be easy to read and understand. This includes proper indentation, consistent naming conventions, and sufficient comments where necessary.
+  KISS (Keep It Simple, Stupid): Strive for simplicity in your code. Avoid unnecessary complexity and overengineering.
+  Comments: Use comments sparingly and only to explain why something is done, not what is done. Well-written code should be largely self-explanatory.
+  Consistent Style: Maintain a consistent coding style throughout the project. This includes formatting, naming conventions, and structure.
+  Error Handling: Handle errors gracefully and provide meaningful error messages. This makes the code more robust and easier to debug.
+  Testing: Write automated tests for your code to ensure it works as expected and to facilitate future changes and refactoring.
+  Separation of Concerns: Separate different concerns into different modules or classes. This makes the codebase more modular and easier to understand.
+  Dependency Management: Manage dependencies carefully to avoid tight coupling. Use dependency injection and other techniques to keep the code modular and testable.
+  Refactoring: Continuously improve the code by refactoring. Clean up and improve the structure of existing code without changing its external behavior.
+
+
+
+3 - Comparison between while loop and for loop in python in speed:
+
+  General Differences in Speed
+  For Loop Overhead:
+
+  For Loop: When iterating over built-in iterables (like lists, tuples, strings, or ranges), for loops are often optimized and can be faster due to internal optimizations.
+  While Loop: Generally has less overhead since it only checks a condition, but performance depends heavily on the condition and the operations performed within the loop.
+
+  Iteration Control:
+
+  For Loop: The iteration is controlled by the iterable itself, making it straightforward and efficient.
+  While Loop: The iteration control is manual, which can introduce extra computational overhead if not managed efficiently.
+
+  Use Case Specificity:
+
+  For Loop: When iterating over a known sequence of elements, for loops are typically faster due to their simplicity and optimization for such tasks.
+  While Loop: May be more suitable for complex conditional looping, but the speed can vary based on how the condition and the loop's contents are managed.
+
+
+
+4 - What are the most popular debugging tools in Python?
+
+  - PDB (Python Debugger)
+  - IPython and Jupyter Notebooks
+  - PyCharm Debugger
+  - VS Code Debugger
+  - Winpdb
+  - pudb
+  - PyDev Debugger (Eclipse)
+  - Faulthandler
+
+
+5 - What is the way to write a line between the lines of a file in Python?
+
+  1. Read the contents of the file.
+  2. Insert the new lines at the desired positions.
+  3. Write the modified contents back to the file.
